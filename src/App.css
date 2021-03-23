@@ -2,10 +2,11 @@
   max-width: 400px;
   min-height: 450px;
   margin: 0 auto;
-  background-color:pink;
-  box-shadow: 0 0 10px gray;
+  background-color:skyblue;
+  box-shadow: 0px 10px 10px 0px skyblue;
   margin-top: 50px;
   padding: 15px 50px;
+  border-radius: 10px;
 }
 .text-centre{
   text-align: center;
@@ -15,10 +16,12 @@
   justify-content: space-around;
   background-color: white;
   box-shadow: 0 0 10px gray;
+  border-radius: 5px;
 }
 .transaction-form input{
 width: 100%;
-margin: 10px 0 0 0;
+margin: 5px 0px 10px 0px;
+padding: 5px 0;
 }
 .transaction-list{
   margin: 0;
@@ -31,4 +34,12 @@ margin: 10px 0 0 0;
   margin: 5px 0;
   background-color: white;
   padding: 10px 5px;
+  border-radius: 5px;
+}
+button{
+  background-color: yellow;
+  border-radius: 10px;
+  margin: 5px 10px 10px 130px;
+  padding: 10px 10px 10px 10px;
+  box-shadow: 2px 2px 2px 2px orange;
 }
